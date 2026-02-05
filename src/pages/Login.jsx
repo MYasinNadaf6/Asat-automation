@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "../styles/App.css";
 
 function login() {
@@ -86,10 +86,10 @@ const url = isLogin
 
   return (
     <div className="page">
-<div className="logo">
+<Link to="/" className="logo">
   <img src="/logo.png" alt="ASAT Automation" />
-</div>
-
+  
+</Link>
       <h2>{isLogin ? "Welcome Back" : "Create Account"}</h2>
 
       <p className="subtitle">

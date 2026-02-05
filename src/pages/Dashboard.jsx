@@ -38,22 +38,20 @@ const [user, setUser] = useState(null);
   if (!user) {
   return <p style={{ textAlign: "center", marginTop: "100px" }}>Loading dashboard...</p>;
 }
-
   const viewedProducts = 10;
 
   const handleLogout = () => {
     localStorage.removeItem("token");
     navigate("/");
   };
-
   return (
     <>
       {/* NAVBAR */}
       <nav className="navbar">
-        <div className="logo">
-<img src="/logo.png" alt="ASAT Automation" />
-<h1>| ASAT AUTOMATION</h1>
-</div>
+       <Link to="/" className="logo">
+  <img src="/logo.png" alt="ASAT Automation" />
+  <h1>| ASAT AUTOMATION</h1>
+</Link>
 
         <div className="nav-links">
           <button className="nav-link" onClick={() => navigate("/")}>HOME</button>
