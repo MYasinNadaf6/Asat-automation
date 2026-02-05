@@ -54,7 +54,7 @@ function Form() {
                <div className="login__box">
                <FontAwesomeIcon className='ri-user-3-line' icon={faPhone} />
                   <div className="login__box-input">
-                     <input type="number" name='phon' required className="login__input  border-b-2 border-white" id="login-pass" placeholder="Addres"/>
+                     <input type="number" name='phon' required className="login__input  border-b-2 border-white" id="login-pass" placeholder="Phone No."/>
              
                      <i className="ri-eye-off-line login__eye" id="login-eye"></i>
                   </div>
@@ -63,8 +63,8 @@ function Form() {
                <div className="login__box">
                   <FontAwesomeIcon className='ri-user-3-line' icon={faHouse} />
                   <div className="login__box-input">
-                     <input type="text" name='address' required className="login__input  border-b-2 border-white" id="login-email" placeholder="Addres"/>
-                     <label for="login-email" className="login__label">Addres</label>
+                     <input type="text" name='address' required className="login__input  border-b-2 border-white" id="login-email" placeholder="Address"/>
+                     <label for="login-email" className="login__label">Phone No.</label>
                   </div>
                </div>
             </div>

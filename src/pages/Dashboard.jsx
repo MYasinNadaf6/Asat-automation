@@ -1,22 +1,44 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/Dashboard.css";
 
+const API_URL = import.meta.env.VITE_API_URL;
 function Dashboard() {
   const navigate = useNavigate();
+const [user, setUser] = useState(null);
 
   // Protect dashboard
-  useEffect(() => {
-    const token = localStorage.getItem("token");
-    if (!token) {
-      navigate("/");
-    }
-  }, [navigate]);
+ useEffect(() => {
+  const token = localStorage.getItem("token");
+
+  if (!token) {
+    navigate("/login");
+    return;
+  }
+
+  fetch(`${API_URL}/api/auth/me`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  })
+    .then((res) => {
+      if (!res.ok) throw new Error("Unauthorized");
+      return res.json();
+    })
+    .then((data) => {
+      setUser(data);
+    })
+    .catch(() => {
+      localStorage.removeItem("token");
+      navigate("/login");
+    });
+}, [navigate]);
 
   // Temporary static data (replace with API later)
-  const email = "myasin@gmail.com";
-  const Name = "Yasin Nadaf";
-  const memberSince = "December 2025";
+  if (!user) {
+  return <p style={{ textAlign: "center", marginTop: "100px" }}>Loading dashboard...</p>;
+}
+
   const viewedProducts = 10;
 
   const handleLogout = () => {
@@ -52,8 +74,9 @@ function Dashboard() {
             <span className="stat-icon">👤</span>
             <div>
               <p className="stat-label">Account</p>
-              <p className="stat-value">{Name}</p>
-              <p className="stat-value">{email}</p>
+              <p className="stat-value">{user.name}</p>
+              <p className="stat-value">{user.email}</p>
+
             </div>
           </div>
         
@@ -69,8 +92,9 @@ function Dashboard() {
             <span className="stat-icon">📦</span>
             <div>
               <p className="stat-label">Member Since</p>
-              <p className="stat-value">{memberSince}</p>
-            </div>
+<p className="stat-value">
+  {new Date(user.createdAt).toDateString()}
+</p>            </div>
           </div>
         </section>
 
