@@ -16,7 +16,7 @@ const [user, setUser] = useState(null);
     return;
   }
 
-  fetch(`${API_URL}/api/auth/me`, {
+  fetch(`${import.meta.env.VITE_API_URL}/api/auth/me`, {
     headers: {
       Authorization: `Bearer ${token}`,
     },
@@ -93,8 +93,14 @@ const [user, setUser] = useState(null);
             <div>
               <p className="stat-label">Member Since</p>
 <p className="stat-value">
-  {new Date(user.createdAt).toDateString()}
-</p>            </div>
+  {user?.createdAt
+    ? new Date(user.createdAt).toLocaleDateString("en-IN", {
+        month: "long",
+        year: "numeric",
+      })
+    : ""}
+</p>     
+      </div>
           </div>
         </section>
 
