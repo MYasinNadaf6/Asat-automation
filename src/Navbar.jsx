@@ -24,14 +24,15 @@ function Navbar() {
   })
   return (
     <div>
-      <nav className="bg-black/30 backdrop-blur-md h-17 w-full flex justify-between items-center p-2 fixed z-50 navbar">
-        <div className="h-18 w-auto ml-2 sm:ml-4 md:ml-6 lg:ml-10 p-1 sm:p-1.5 flex items-center gap-1 sm:gap-2 md:gap-3">
-          <img src="logo.png" alt="" className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12" />
+      <nav className="bg-black/30 backdrop-blur-md h-17 w-full flex justify-between items-center p-2 fixed z-50 ">
+      <Link to="/" className="h-18 w-auto ml-2 sm:ml-4 md:ml-6 lg:ml-10 p-1 sm:p-1.5 flex items-center gap-1 sm:gap-2 md:gap-3">
+ <img src="logo.png" alt="" className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12" />
           <div className="flex flex-col sm:flex-row gap-0 sm:gap-1 leading-3">
             <h1 className="text-xs sm:text-sm md:text-base lg:text-2xl text-white font-bold"> |  ASAT </h1>
             <h1 className="text-xs sm:text-sm md:text-base lg:text-2xl text-white font-bold">AUTOMATION</h1>
           </div>
-        </div>
+      </Link>
+       
         <div className="flex mr-2 sm:mr-4 md:mr-6 lg:mr-10 gap-10">
           <ul className="flex space-x-2 sm:space-x-4 md:space-x-6 items-center text-white font-serif">
             <li>

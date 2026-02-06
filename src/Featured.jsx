@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Featured() {
   return (
@@ -16,9 +17,9 @@ function Featured() {
             <p className="text-gray-400 mx-2 text-sm sm:text-base">
               High-precision 5-axis CNC milling machine for complex industrial components
             </p>
-            <a href="#" className="text-blue-500 pr-1 block px-2 pb-2">
-              Learn more...
-            </a>
+            <Link to="/products" className="text-blue-500 pr-1 block px-2 pb-2">
+             lern more..
+           </Link>
           </div>
           <div className="w-11/12 sm:w-72 md:w-80 h-auto bg-gray-100 rounded-2xl hover:shadow-2xl transition-shadow mb-6 sm:mb-0">
             <div className="h-60 sm:h-68 w-full bg-amber-700 rounded-2xl overflow-hidden">
@@ -30,9 +31,9 @@ function Featured() {
             <p className="text-gray-400 mx-2 text-sm sm:text-base">
               High-precision 5-axis CNC milling machine for complex industrial components
             </p>
-            <a href="#" className="text-blue-500 pr-1 block px-2 pb-2">
-              Learn more...
-            </a>
+           <Link to="/products" className="text-blue-500 pr-1 block px-2 pb-2">
+             lern more..
+           </Link>
           </div>
           <div className="w-11/12 sm:w-72 md:w-80 h-auto bg-gray-100 rounded-2xl hover:shadow-2xl transition-shadow mb-6 sm:mb-0">
             <div className="h-60 sm:h-68 w-full bg-amber-700 rounded-2xl overflow-hidden">
@@ -44,9 +45,9 @@ function Featured() {
             <p className="text-gray-400 mx-2 text-sm sm:text-base">
               High-precision 5-axis CNC milling machine for complex industrial components
             </p>
-            <a href="#" className="text-blue-500 pr-1 block px-2 pb-2">
-              Learn more...
-            </a>
+            <Link to="/products" className="text-blue-500 pr-1 block px-2 pb-2">
+             lern more..
+           </Link>
           </div>
           <div className="w-11/12 sm:w-72 md:w-80 h-auto bg-gray-100 rounded-2xl hover:shadow-2xl transition-shadow  sm:mb-0">
             <div className="h-60 sm:h-68 w-full bg-amber-700 rounded-2xl overflow-hidden">
@@ -58,9 +59,9 @@ function Featured() {
             <p className="text-gray-400 mx-2 text-sm sm:text-base">
               High-precision 5-axis CNC milling machine for complex industrial components
             </p>
-            <a href="#" className="text-blue-500 pr-1 block px-2 pb-2">
-              Learn more...
-            </a>
+             <Link to="/products" className="text-blue-500 pr-1 block px-2 pb-2">
+             lern more..
+           </Link>
           </div>
         </div>
       </div>

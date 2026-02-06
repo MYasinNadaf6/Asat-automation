@@ -63,7 +63,7 @@ function Form() {
                <div className="login__box">
                   <FontAwesomeIcon className='ri-user-3-line' icon={faHouse} />
                   <div className="login__box-input">
-                     <input type="text" name='address' required className="login__input  border-b-2 border-white" id="login-email" placeholder="Address"/>
+                     <input type="text" name='address' required className="login__input  border-b-2 border-white" id="login-email" placeholder=""/>
                      <label for="login-email" className="login__label">Phone No.</label>
                   </div>
                </div>

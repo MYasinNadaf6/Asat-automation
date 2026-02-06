@@ -90,7 +90,7 @@ const url = isLogin
   <img src="/logo.png" alt="ASAT Automation" />
   
 </Link>
-      <h2>{isLogin ? "Welcome Back" : "Create Account"}</h2>
+      <h2 className="welcome">{isLogin ? "Welcome Back" : "Create Account"}</h2>
 
       <p className="subtitle">
         {isLogin
@@ -144,7 +144,7 @@ const url = isLogin
             </div>
           )}
 
-          <button className="btn">
+          <button className="button">
             {isLogin ? "Sign In" : "Create Account"}
           </button>
 
@@ -185,6 +185,7 @@ const url = isLogin
               placeholder="Enter your email"
               value={forgotEmail}
               onChange={(e) => setForgotEmail(e.target.value)}
+              className="Finput"
             />
 
             <button onClick={sendResetLink}>Send Reset Link</button>

@@ -55,7 +55,7 @@ function Products() {
             <Link to='/milling'>
               <div className='h-95 w-80 bg-white rounded-2xl hover:shadow-2xl hover:scale-105 transition-transform duration-300'>
                 <img className='h-70 w-full object-cover rounded-t-2xl ' src="machine1.jpg" alt="" />
-                <h1 className='p-2 text-2xl'>
+                <h1 className='p-2 text-xl'>
                 CNC Precision Milling Machine
                 </h1>
                 <button className=' p-1 rounded-2xl text-blue-600 ml-2 mt-3'>click to view details...</button>
@@ -67,7 +67,7 @@ function Products() {
             <Link to='/roboticarm'>
               <div className='h-95 w-80 bg-white rounded-2xl hover:shadow-2xl hover:scale-105 transition-transform duration-300'>
                 <img className='h-70 w-full object-cover rounded-t-2xl' src="machine2.jpg" alt="" />
-                <h1 className='p-2 text-2xl'>
+                <h1 className='p-2 text-xl'>
                 Industrial Robotic Arm
                 </h1>
                 <button className=' p-1 rounded-2xl text-blue-600 ml-2 mt-3'>click to view details...</button>
@@ -79,7 +79,7 @@ function Products() {
             <Link to='/'>
               <div className='h-95 w-80 bg-white rounded-2xl hover:shadow-2xl hover:scale-105 transition-transform duration-300'>
                 <img className='h-70 w-full object-cover rounded-t-2xl' src="machine3.jpg" alt="" />
-                <h1 className='p-2 text-2xl'>
+                <h1 className='p-2 text-xl'>
                 Hydraulic Press Machine
                 </h1>
                 <button className=' p-1 rounded-2xl text-blue-600 ml-2 mt-3'>click to view details...</button>
@@ -91,7 +91,7 @@ function Products() {
             <Link to='/conveyour'>
               <div className='h-95 w-80 bg-white rounded-2xl hover:shadow-2xl hover:scale-105 transition-transform duration-300'>
                 <img className='h-70 w-full object-cover rounded-t-2xl' src="machine4.jpg" alt="" />
-                <h1 className='p-2 text-2xl'>
+                <h1 className='p-2 text-xl'>
                 Automated Conveyor System
                 </h1>
                 <button className=' p-1 rounded-2xl text-blue-600 ml-2 mt-3'>click to view details...</button>
@@ -103,7 +103,7 @@ function Products() {
             <Link>
               <div className='h-95 w-80 bg-white rounded-2xl hover:shadow-2xl hover:scale-105 transition-transform duration-300'>
                 <img className='h-70 w-full object-cover rounded-t-2xl' src="machine1.jpg" alt="" />
-                <h1 className='pl-2 pt-2 text-2xl'>
+                <h1 className='pl-2 pt-2 text-xl'>
                 Laser Cutting System
                 </h1>
                 <button className=' p-1 rounded-2xl text-blue-600 ml-2 mt-3'>click to view details...</button>
