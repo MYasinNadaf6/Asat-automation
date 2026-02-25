@@ -1,6 +1,7 @@
 import { faEnvelopeOpen, faLocation, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
+import  Footer from './Footer'
 function Contact(){
     return(
        <div>
@@ -56,6 +57,7 @@ function Contact(){
             </div>
  
         </div>
+        <Footer/>
        </div>
     );
 }

@@ -20,6 +20,7 @@ import ResetPassword from './pages/ResetPassword'
 import Dashboard from './pages/Dashboard'
 import Contact from './Contact'
 
+
 // Home page component that includes Hero and Home2
 function Home() {
   return (
@@ -62,6 +63,7 @@ function App() {
         <Route path="/pressmachine" element={<Press />} />
         <Route path="/conveyour" element={<Conveyour />} />
         <Route path="/bookingform" element={<Form />} />
+    
 
         {/* auth pages */}
         <Route path="/login" element={<Login />} />
