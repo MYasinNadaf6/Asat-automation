@@ -21,7 +21,7 @@ function Navbar() {
         stagger:0.5
       })
     
-  })
+  })  
   return (
     <div>
       <nav className="bg-black/30 backdrop-blur-md h-17 w-full flex justify-between items-center p-2 fixed z-50 ">
@@ -43,6 +43,9 @@ function Navbar() {
             </li>
             <li>
               <Link to="/aboutus" className="text-xs sm:text-sm md:text-base">ABOUT US</Link>
+            </li>
+            <li>
+              <Link to="/contact" className="text-xs sm:text-sm md:text-base">CONTACT US</Link>
             </li>
           
           </ul>

@@ -18,6 +18,7 @@ import Form from './Form'
 import Login from './pages/Login'
 import ResetPassword from './pages/ResetPassword'
 import Dashboard from './pages/Dashboard'
+import Contact from './Contact'
 
 // Home page component that includes Hero and Home2
 function Home() {
@@ -52,6 +53,7 @@ function App() {
 
       <Routes>
         {/* public pages */}
+        <Route path='/contact' element={<Contact />} />
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/aboutus" element={<About />} />
