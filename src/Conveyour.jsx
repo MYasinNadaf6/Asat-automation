@@ -52,10 +52,10 @@ function Conveyour() {
            {/* Product Description and Specs */}
            <div className='w-full lg:w-[45%] mt-4 lg:mt-6 flex flex-col'>
               <h1 className='text-2xl sm:text-3xl font-bold mb-3 lg:mt-8 border-b-2 border-b-blue-600 p-2'>
-                CNC Precision Milling Machine
+                Automated Conveyor System
               </h1>
               <p className='text-base sm:text-lg lg:text-xl mb-5'>
-                Our advanced CNC precision milling machine offers unparalleled accuracy and versatility for manufacturing complex industrial components. Equipped with state-of-the-art controls and robust construction, this machine delivers consistent results for the most demanding applications.
+                Flexible and scalable conveyor system designed for industrial material handling. Features modular design, variable speed control, and integration capabilities with automated production lines.
               </p>
               
               {/* Technical Specification */}
@@ -65,20 +65,25 @@ function Conveyour() {
                 </h2>
                 <div className='space-y-2 sm:space-y-3 '>
                   <div className='flex justify-between py-2 sm:py-3 border-b border-gray-400'>
-                    <span className='text-gray-600'>Work Table size</span>
-                    <span className='text-gray-600'>1200 X 600 mm</span>
+                    <span className='text-gray-600'>Belt Width</span>
+                    <span className='text-gray-600'> 600 mm</span>
                   </div>
                   <div className='flex justify-between py-2 sm:py-3 border-b border-gray-400'>
-                    <span className='text-gray-600'>Spindel speed </span>
-                    <span className='text-gray-600'>800 RPM</span>
+                    <span className='text-gray-600'>Maximum Load </span>
+                    <span className='text-gray-600'>100kg/m</span>
                   </div>
                   <div className='flex justify-between py-2 sm:py-3 border-b border-gray-400'>
-                    <span className='text-gray-600'>Power Rating</span>
-                    <span className='text-gray-600'>15 Kw</span>
+                    <span className='text-gray-600'>Speed Range</span>
+                    <span className='text-gray-600'>5-30 m/min
+</span>
                   </div>
                   <div className='flex justify-between py-2 sm:py-3 border-b border-gray-400'>
-                    <span className='text-gray-600'>Positioning Accuracy</span>
-                    <span className='text-gray-600'>+0.005</span>
+                    <span className='text-gray-600'>Drive Power</span>
+                    <span className='text-gray-600'>2.2 kW</span>
+                  </div>
+                  <div className='flex justify-between py-2 sm:py-3 border-b border-gray-400'>
+                    <span className='text-gray-600'>Frame material</span>
+                    <span className='text-gray-600'>Aluminium Steel</span>
                   </div>
                 </div>
               </div>

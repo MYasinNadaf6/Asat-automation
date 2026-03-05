@@ -18,7 +18,7 @@ function Featured() {
               High-precision 5-axis CNC milling machine for complex industrial components
             </p>
             <Link to="/products" className="text-blue-500 pr-1 block px-2 pb-2">
-             lern more..
+             learn more..
            </Link>
           </div>
           <div className="w-11/12 sm:w-72 md:w-80 h-auto bg-gray-100 rounded-2xl hover:shadow-2xl transition-shadow mb-6 sm:mb-0">
@@ -26,13 +26,13 @@ function Featured() {
               <img className="h-full w-full object-cover rounded-t-2xl" src="machine3.jpg" alt="" />
             </div>
             <h1 className="text-lg sm:text-xl p-2">
-              CNC Precision Milling Machine
+              Industrial Robotiic Arm
             </h1>
             <p className="text-gray-400 mx-2 text-sm sm:text-base">
-              High-precision 5-axis CNC milling machine for complex industrial components
+             This industrial robotic arm provides flexible automation solutions for assembly lines, material handling, and precision tasks.
             </p>
            <Link to="/products" className="text-blue-500 pr-1 block px-2 pb-2">
-             lern more..
+             learn more..
            </Link>
           </div>
           <div className="w-11/12 sm:w-72 md:w-80 h-auto bg-gray-100 rounded-2xl hover:shadow-2xl transition-shadow mb-6 sm:mb-0">
@@ -40,13 +40,13 @@ function Featured() {
               <img className="h-full w-full object-cover rounded-t-2xl" src="machine3.jpg" alt="" />
             </div>
             <h1 className="text-lg sm:text-xl p-2">
-              CNC Precision Milling Machine
+              Hydrolic Press machine 
             </h1>
             <p className="text-gray-400 mx-2 text-sm sm:text-base">
-              High-precision 5-axis CNC milling machine for complex industrial components
+              Heavy-duty hydraulic press designed for high-force metal forming, stamping, and compression operations
             </p>
             <Link to="/products" className="text-blue-500 pr-1 block px-2 pb-2">
-             lern more..
+             learn more..
            </Link>
           </div>
           <div className="w-11/12 sm:w-72 md:w-80 h-auto bg-gray-100 rounded-2xl hover:shadow-2xl transition-shadow  sm:mb-0">
@@ -54,13 +54,13 @@ function Featured() {
               <img className="h-full w-full object-cover rounded-t-2xl" src="machine4.jpg" alt="" />
             </div>
             <h1 className="text-lg sm:text-xl p-2 mr-2">
-              CNC Precision Milling Machine
+              Automated Conveyor System
             </h1>
             <p className="text-gray-400 mx-2 text-sm sm:text-base">
-              High-precision 5-axis CNC milling machine for complex industrial components
+              Flexible and scalable conveyor system designed for industrial material handling.
             </p>
              <Link to="/products" className="text-blue-500 pr-1 block px-2 pb-2">
-             lern more..
+             learn more..
            </Link>
           </div>
         </div>

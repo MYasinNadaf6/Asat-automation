@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import { useGLTF } from '@react-three/drei'
+import { Center, useGLTF } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import { Environment, OrbitControls } from '@react-three/drei'
 
@@ -27,7 +27,9 @@ function Model() {
             <Environment files={['https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/blue_photo_studio_1k.hdr']} background />
             <ambientLight intensity={0.5} />
             <directionalLight position={[3, 10, 20]} intensity={1} />
+            <Center>
             <Model3D />
+            </Center>
             <OrbitControls enableZoom={false} enablePan={false} enableRotate={true} />
           </Suspense>
         </Canvas>

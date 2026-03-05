@@ -19,6 +19,7 @@ import Login from './pages/Login'
 import ResetPassword from './pages/ResetPassword'
 import Dashboard from './pages/Dashboard'
 import Contact from './Contact'
+import Lazer from './Lazer'
 
 
 // Home page component that includes Hero and Home2
@@ -63,6 +64,7 @@ function App() {
         <Route path="/pressmachine" element={<Press />} />
         <Route path="/conveyour" element={<Conveyour />} />
         <Route path="/bookingform" element={<Form />} />
+        <Route path="/lazer" element={<Lazer />} />
     
 
         {/* auth pages */}
@@ -73,6 +75,12 @@ function App() {
         {/* dashboard */}
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
+      <div className=' absolute bottom-29 right-10 bg-green-500 position-relative text-white h-12 w-40 rounded-full p-2 cursor-pointer pt-2'>
+        <div className='flex items-center justify-center gap-1'>
+          <FontAwesomeIcon icon={faWhatsapp} className='text-2xl' />
+          <a className="text-1.5xl font-bold mt-1" href="https://wa.me/+917741814620">GET QUOTE</a>
+        </div>
+      </div>
     </>
   );
 }

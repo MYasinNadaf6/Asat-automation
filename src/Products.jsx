@@ -100,7 +100,7 @@ function Products() {
             </Link>
           </div>
           <div className='p-5 basis-full word rounded-b-2xl pro'>
-            <Link>
+            <Link to='/lazer'>
               <div className='h-95 w-80 bg-white rounded-2xl hover:shadow-2xl hover:scale-105 transition-transform duration-300'>
                 <img className='h-70 w-full object-cover rounded-t-2xl' src="machine1.jpg" alt="" />
                 <h1 className='pl-2 pt-2 text-xl'>
