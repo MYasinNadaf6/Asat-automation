@@ -78,7 +78,7 @@ function App() {
       <div className=' absolute bottom-29 right-10 bg-green-500 position-relative text-white h-12 w-40 rounded-full p-2 cursor-pointer pt-2'>
         <div className='flex items-center justify-center gap-1'>
           <FontAwesomeIcon icon={faWhatsapp} className='text-2xl' />
-          <a className="text-1.5xl font-bold mt-1" href="https://wa.me/+917741814620">GET QUOTE</a>
+          <a className="text-1.5xl font-bold mt-1" href="https://wa.me/+918275957199">GET QUOTE</a>
         </div>
       </div>
     </>
