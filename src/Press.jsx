@@ -93,9 +93,12 @@ function Press() {
 
               {/* Buttons */}
               <div className='pt-6 flex flex-col sm:flex-row gap-4 sm:gap-8 items-center justify-start'>
-                <button className='bg-blue-600 text-white p-3 w-full sm:w-auto rounded-2xl hover:scale-105 transition-transform duration-200'>
+                <Link to='/bookingform'>
+                 <button className='bg-blue-600 text-white p-3 w-full sm:w-auto rounded-2xl hover:scale-105 transition-transform duration-200'>
                   request to booking
                 </button>
+                </Link>
+               
                 <button className='border-2 border-blue-700 p-3 w-full sm:w-auto text-blue-600 rounded-2xl'>
                   contact us
                 </button>
