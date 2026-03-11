@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import Footer from './Footer'
+
 
 function Products() {
   const [products, setProducts] = useState([]);
@@ -23,8 +25,8 @@ function Products() {
   if (loading) return <div className="h-screen bg-black text-white flex items-center justify-center">Loading ASAT Inventory...</div>;
 
   return (
-    <div className='bg-black min-h-screen p-10'>
-      <h1 className='text-4xl text-white border-b-2 border-blue-600 pb-2 mb-10'>OUR PRODUCTS</h1>
+    <div className='heading min-h-screen p-10'>
+      <h1 className='text-4xl text-white border-b-2 border-blue-600 pb-2 mb-10 mt-7 h'>OUR PRODUCTS</h1>
       
       <div className="flex flex-wrap gap-10 justify-center">
         {products.map((product) => (
@@ -41,6 +43,7 @@ function Products() {
           </div>
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

@@ -21,12 +21,6 @@ function About() {
     const imgDivRef = useRef(null)
     const imgRef = useRef(null)
    const imgArray = [
-    './img1.jpeg',
-    './img2.jpeg',
-    './img3.jpeg',
-    './img4.jpeg',
-    './img6.jpeg',
-    './img7.jpg',
     './machine1.jpg',
     './machine2.jpg',
     './machine3.jpg',

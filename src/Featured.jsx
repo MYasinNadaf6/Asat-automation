@@ -23,7 +23,7 @@ function Featured() {
           </div>
           <div className="w-11/12 sm:w-72 md:w-80 h-auto bg-gray-100 rounded-2xl hover:shadow-2xl transition-shadow mb-6 sm:mb-0">
             <div className="h-60 sm:h-68 w-full bg-amber-700 rounded-2xl overflow-hidden">
-              <img className="h-full w-full object-cover rounded-t-2xl" src="machine3.jpg" alt="" />
+              <img className="h-full w-full object-cover rounded-t-2xl" src="machine2.jpg" alt="" />
             </div>
             <h1 className="text-lg sm:text-xl p-2">
               Industrial Robotiic Arm
@@ -37,7 +37,7 @@ function Featured() {
           </div>
           <div className="w-11/12 sm:w-72 md:w-80 h-auto bg-gray-100 rounded-2xl hover:shadow-2xl transition-shadow mb-6 sm:mb-0">
             <div className="h-60 sm:h-68 w-full bg-amber-700 rounded-2xl overflow-hidden">
-              <img className="h-full w-full object-cover rounded-t-2xl" src="machine3.jpg" alt="" />
+              <img className="h-full w-full object-cover rounded-t-2xl" src="machine4.jpg" alt="" />
             </div>
             <h1 className="text-lg sm:text-xl p-2">
               Hydrolic Press machine 
@@ -51,7 +51,7 @@ function Featured() {
           </div>
           <div className="w-11/12 sm:w-72 md:w-80 h-auto bg-gray-100 rounded-2xl hover:shadow-2xl transition-shadow  sm:mb-0">
             <div className="h-60 sm:h-68 w-full bg-amber-700 rounded-2xl overflow-hidden">
-              <img className="h-full w-full object-cover rounded-t-2xl" src="machine4.jpg" alt="" />
+              <img className="h-full w-full object-cover rounded-t-2xl" src="machine1.jpg" alt="" />
             </div>
             <h1 className="text-lg sm:text-xl p-2 mr-2">
               Automated Conveyor System
