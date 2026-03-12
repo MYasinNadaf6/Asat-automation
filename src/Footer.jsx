@@ -12,8 +12,8 @@ function Footer() {
         {/* Contact Info */}
         <div className="p-2 sm:p-4 w-full sm:w-auto lg:">
         <div className="h-18 w-auto ml-2 sm:ml-4 md:ml-6 lg:ml-10 p-1 sm:p-1.5  items-center gap-1 sm:gap-2 md:gap-3">
-          <span></span><img src="logo.png" alt="" className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12" />
-          <h1 className="text-xs sm:text-sm md:text-base lg:text-4xl text-white font-bold"> |  ASAT </h1>
+          <span></span>
+          <h1 className="text-xs sm:text-sm md:text-base lg:text-4xl text-white font-bold"> <img src="logo.png" alt="" className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12" />|  ASAT </h1>
           <div className="flex flex-col sm:flex-row gap-0 sm:gap-1  border-white pb-2"><span></span>
            
             <h1 className="text-xs sm:text-sm md:text-base lg:text-4xl text-white font-bold">AUTOMATION</h1>

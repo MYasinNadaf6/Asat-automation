@@ -7,12 +7,10 @@ import Model from './Model'
 import Featured from './Featured'
 import Footer from './Footer'
 import Products from './Products'
-import Milling from './Milling'
-import Robotic from './Robotic'
-import Press from './Press'
+
+
 import About from './About'
-import Conveyour from './Conveyour'
-import Lazer from './Lazer'
+
 import Contact from './Contact'
 import Form from './Form'
 import Login from './pages/Login'
@@ -69,13 +67,9 @@ function AppContent() {
         <Route path="/aboutus" element={<About />} />
         
         <Route path="/product/:id" element={<ProductDetail />} />
-        <Route path="/milling" element={<Milling />} />
-        <Route path="/roboticarm" element={<Robotic />} />
-        <Route path="/pressmachine" element={<Press />} />
-        <Route path="/conveyour" element={<Conveyour />} />
+    
         <Route path="/bookingform" element={<Form />} />
-        <Route path="/lazer" element={<Lazer />} />
-
+      
         {/* Auth Pages */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Login />} />

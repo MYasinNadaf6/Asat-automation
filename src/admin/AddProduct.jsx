@@ -57,7 +57,7 @@ const AddProduct = () => {
             onChange={(e) => setFormData({...formData, image: e.target.value})} 
             value={formData.image}
           />
-        </div>
+        </div> 
 
         {/* Technical Specs Info */}
         <div className="space-y-4">

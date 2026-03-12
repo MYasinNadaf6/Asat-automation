@@ -26,7 +26,23 @@ function Products() {
 
   return (
     <div className='heading min-h-screen p-10'>
-      <h1 className='text-4xl text-white border-b-2 border-blue-600 pb-2 mb-10 mt-7 h'>OUR PRODUCTS</h1>
+      <div className='relative w-full h-48 sm-80 md:h-96 video rounded-xl overflow-hidden mb-3'>
+        <video 
+        src="cutting.mp4"
+        className='w-full h-full object-cover z-0 hover:shadow-2xl'
+        autoPlay
+        muted
+        loop
+        playsInline
+        />
+        <div className='absolute inset-0 flex items-center justify-center pt-2 sm:pt-4'>
+          <h1 className='text-3xl sm:text-3xl md:text-4xl text-amber-50 z-10 text-center text-shadow-2xs font-bold'>
+            OUR POPULAR PRODUCTS
+          </h1>
+
+        </div>
+
+      </div>
       
       <div className="flex flex-wrap gap-10 justify-center">
         {products.map((product) => (

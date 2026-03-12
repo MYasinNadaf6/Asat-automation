@@ -153,7 +153,7 @@ const ManageProducts = () => {
                   <label className="text-xs text-zinc-400 font-medium">Positioning Accuracy (e.g. ±0.005)</label>
                   <input className="w-full bg-zinc-800 border border-white/5 p-3 rounded-lg mt-1" value={currentProduct.specs?.accuracy} onChange={(e) => setCurrentProduct({...currentProduct, specs: {...currentProduct.specs, accuracy: e.target.value}})} />
                 </div>
-              </div>
+              </div> 
 
               {/* ACTION BUTTONS */}
               <div className="md:col-span-2 pt-8 flex gap-4 border-t border-white/5 mt-6 bg-black/10 p-6 -mx-10 -mb-10 rounded-b-3xl">
