@@ -41,16 +41,19 @@ function ResetPassword() {
     }
   };
 
-  return (
+ return (
     <div className="min-h-screen w-full bg-gradient-to-b from-[#3a003a] to-black flex items-center justify-center p-6">
       <div className="w-full max-w-md bg-white/10 backdrop-blur-xl p-10 rounded-3xl border border-white/10 shadow-2xl flex flex-col items-center">
         
-        {/* ASAT Brand Header */}
-        <div className="mb-8 text-center">
-          <h1 className="text-3xl font-black text-white tracking-widest uppercase">| ASAT</h1>
+        {/* ASAT Brand Header with Logo */}
+        <div className="mb-8 text-center flex flex-col items-center">
+          <div className="flex items-center gap-3">
+             {/* Logo before the name */}
+             <img src="/logo.png" alt="Logo" className="h-10 w-10 object-contain" />
+             <h1 className="text-3xl font-black text-white tracking-widest uppercase">| ASAT</h1>
+          </div>
           <p className="text-amber-500 text-[10px] font-bold mt-2 uppercase tracking-widest">Secure credentials reset</p>
         </div>
-
         {!success ? (
           <>
             <h2 className="text-2xl font-bold text-white mb-6">Reset Password</h2>
