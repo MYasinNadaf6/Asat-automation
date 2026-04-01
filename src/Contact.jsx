@@ -10,9 +10,9 @@ function Contact() {
             {/* Top Map Section */}
             <div className='w-full text-white p-6 md:p-10'>
                 <h1 className='text-3xl md:text-4xl font-bold mb-6'>VISIT US</h1>
-                <div className='h-[400px] md:h-[450px] w-full rounded-xl overflow-hidden border border-amber-950 shadow-2xl'>
+                <div className='h-500px md:h-[350px] w-full rounded-xl overflow-hidden border border-amber-950 shadow-2xl'>
                     <iframe 
-                        className='h-full w-full grayscale contrast-125' 
+                        className='h-full w-full contrast-125' 
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15254.4939233633!2d74.4533!3d17.08!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDA0JzQ4LjAiTiA3NMKwMjcnMTEuOSJF!5e0!3m2!1sen!2sin!4v1700000000000" 
                          
                         allowFullScreen

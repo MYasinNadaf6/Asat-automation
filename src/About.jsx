@@ -63,7 +63,7 @@ function About() {
                 ref={imgDivRef}
                 className='absolute h-79 w-125 left-50 top-20  shadow-2xl shadow-black rounded-3xl bg-amber-400' >
                 <img ref={imgRef}
-                className="h-full w-full object-cover rounded-3xl" src="./img1.jpeg" alt="" />
+                className="h-full w-full object-cover rounded-3xl" src="./machine4.jpg" alt="" />
             </div>
             <div className="absolute left-1/2 top-10 right-3 mr-4">
             <DotLottieReact

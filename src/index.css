@@ -410,22 +410,3 @@ html, body {
   top: -12px;
   font-size: var(--small-font-size);
 }
-
-/* Add this to your main global CSS file */
-html, body {
-  max-width: 100%;
-  overflow-x: hidden; /* Prevents the horizontal "glitchy" scroll */
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/* Force images and videos to never exceed their container width */
-img, video, canvas {
-  max-width: 100%;
-  height: auto;
-}
